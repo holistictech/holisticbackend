@@ -106,9 +106,10 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ### Installation with Docker
 
-Choose the latest version from Docker.
+Choose the latest version from Docker.<br/>
+
   ```sh
-holistictechgroup/holistic-backend:0.0.1
+docker pullholistictechgroup/holistic-backend:0.0.1
    ```
 
   ```sh
