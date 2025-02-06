@@ -106,16 +106,21 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ### Installation with Docker
 
+Choose the latest version from Docker.
   ```sh
-docker build --no-cache -t fastapi-app .
+holistictechgroup/holistic-backend:0.0.1
    ```
 
   ```sh
-docker run -d -p 80:80 fastapi-app
+docker build --no-cache -t holistic-backend .
+   ```
+
+  ```sh
+docker run -d -p 80:80 holistic-backend
   ```
 
 
-See API documentation on : http://localhost/docs
+See API documentation on : http://localhost/docs <br/>
 See Test API on : http://localhost/test
 
 
@@ -123,10 +128,10 @@ See Test API on : http://localhost/test
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Reach out to API documentation on http://127.0.0.1:8000/docs
-Test dummy service on http://127.0.0.1:8000/test
+Reach out to API documentation on http://127.0.0.1:8000/docs <br/>
+Test dummy service on http://127.0.0.1:8000/test <br/>
 
-
+Docker Hub : https://hub.docker.com/repository/docker/holistictechgroup/holistic-backend/general <br/>
 
 
 <!-- CONTRIBUTING -->
