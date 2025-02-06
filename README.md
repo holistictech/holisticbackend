@@ -104,6 +104,22 @@ _Below is an example of how you can instruct your audience on installing and set
 
 
 
+### Installation with Docker
+
+  ```sh
+docker build --no-cache -t fastapi-app .
+   ```
+
+  ```sh
+docker run -d -p 80:80 fastapi-app
+  ```
+
+
+See API documentation on : http://localhost/docs
+See Test API on : http://localhost/test
+
+
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
