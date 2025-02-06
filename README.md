@@ -109,7 +109,7 @@ _Below is an example of how you can instruct your audience on installing and set
 Choose the latest version from Docker.<br/>
 
   ```sh
-docker pullholistictechgroup/holistic-backend:0.0.1
+docker pull holistictechgroup/holistic-backend:0.0.1
    ```
 
   ```sh
