@@ -1,5 +1,5 @@
 <div>
-
+<a id="readme-top"></a>
 <h1>Holistic Backend Service</h1>
 
 </div>
@@ -39,6 +39,8 @@ This project is built with the following technologies / frameworks :
 * [![Python][Python]][Python-url]
 
 <br/><br/>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -99,6 +101,7 @@ This template doesn't rely on any external dependencies or services._
   ```sh
   uvicorn main:app --reload 
    ```
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ### Installation with Docker
@@ -127,6 +130,7 @@ docker run -d -p 80:80 holistic-backend
 See API documentation on : http://localhost/docs <br/>
 See Test API on : http://localhost/test
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <br/><br/>
 
@@ -138,6 +142,7 @@ Test dummy service on http://127.0.0.1:8000/test <br/>
 
 Docker Hub : https://hub.docker.com/repository/docker/holistictechgroup/holistic-backend/general <br/>
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <br/><br/>
 
@@ -156,6 +161,9 @@ Don't forget to give the project a star! Thanks again!
 5. Open a Pull Request
 
 <br/><br/>
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 <!-- CONTACT -->
 ## Contact
 
@@ -174,3 +182,5 @@ Project Link: [Holistic Backend](https://github.com/holistictech/holisticbackend
 
 [Python]:https://img.shields.io/badge/python-B0E0E6?style=for-the-badge&logo=python&logoColor=yellow
 [Python-url]: https://www.python.org/
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
