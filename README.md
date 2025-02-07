@@ -17,7 +17,17 @@
       <ul>
         <li><a href="#prerequisites">Requirements</a></li>
         <li><a href="#installation">Installations</a></li>
+        <li><a href="#installationdocker">Installation with Docker</a></li>
       </ul>
+    </li>
+    <li>
+      <a href="#usage">Usage</a>
+    </li>
+    <li>
+      <a href="#contributing">Contributing</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
     </li>
   </ol>
 </details>
@@ -61,6 +71,8 @@ This is an example of how to list things you need to use the software and how to
   export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin/"
   ```
 <br/><br/>
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ### Installation
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. <br/>
