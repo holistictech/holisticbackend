@@ -1,7 +1,3 @@
-
-
-
-<!-- PROJECT LOGO -->
 <div>
 
 <h1>Holistic Backend Service</h1>
@@ -26,7 +22,7 @@
   </ol>
 </details>
 
-
+<br/><br/>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -42,31 +38,35 @@ This project is built with the following technologies / frameworks :
 * [![Fastapi][Fastapi]][Fastapi-url]
 * [![Python][Python]][Python-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+<br/><br/>
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This project serves backend API services. <br/>
+See below for installation & local environment preparation.
 
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* Install Docker
+* Install Docker via Brew
   ```sh
   brew install --cask docker 
   ```
-
+  
+* Install manually
+  ```sh
+  export PATH="$PATH:/Applications/Docker.app/Contents/Resources/bin/"
+  ```
+<br/><br/>
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+_Below is an example of how you can instruct your audience on installing and setting up your app. <br/>
+This template doesn't rely on any external dependencies or services._
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   https://github.com/holistictech/holisticbackend.git
    ```
 2. Install Python Packages
 
@@ -100,11 +100,14 @@ _Below is an example of how you can instruct your audience on installing and set
   uvicorn main:app --reload 
    ```
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 ### Installation with Docker
+
+Docker Daemon Machine is not available, then ;
+
+  ```sh
+brew services start docker-machine
+   ```
 
 Choose the latest version from Docker.<br/>
 
@@ -125,6 +128,7 @@ See API documentation on : http://localhost/docs <br/>
 See Test API on : http://localhost/test
 
 
+<br/><br/>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
@@ -134,6 +138,8 @@ Test dummy service on http://127.0.0.1:8000/test <br/>
 
 Docker Hub : https://hub.docker.com/repository/docker/holistictechgroup/holistic-backend/general <br/>
 
+
+<br/><br/>
 
 <!-- CONTRIBUTING -->
 ## Contributing
@@ -149,15 +155,13 @@ Don't forget to give the project a star! Thanks again!
 4. Push to the Branch (`git push origin feature/taskID`)
 5. Open a Pull Request
 
-
+<br/><br/>
 <!-- CONTACT -->
 ## Contact
 
-Holistic Tech Group - [https://www.linkedin.com/company/holistic-tech-group/]
+Holistic Tech Group - [See Linkedin Profile](https://www.linkedin.com/company/holistic-tech-group/)
 
 Project Link: [Holistic Backend](https://github.com/holistictech/holisticbackend)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
